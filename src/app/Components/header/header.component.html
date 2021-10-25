@@ -1,0 +1,48 @@
+<nav class="navbar navbar-dark navbar-expand-lg navbar-fixed-top" style="background-color: #0ba2bd"
+  *ngIf="isLoggedIn()">
+  <a class="navbar-brand" href="#">
+    <img src="../../../assets/app.icon" width="90" height="80" class="d-inline-block align-top" alt="" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" (click)="logOut()">Salir</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/administrador']">Administradores</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/cursos']">Cursos</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/usuarios']">Usuarios</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/lideres']">Lideres</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/catalogos']">Catalogos</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/eventos']">Eventos</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/miempresa']">Mi Empresa</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/notificaciones']">Notificaciones</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/recompensa']">Recompnesa</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: #f6f6f6" class="nav-link" [routerLink]="['/reportes']">Reprotes</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
