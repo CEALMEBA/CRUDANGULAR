@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Global } from './global';
 import {User} from '../Models/User';
-import { Credential } from '../models/Credential';
+import { Credential } from '../Models/Credential';
 @Injectable({
   providedIn: 'root'
 })

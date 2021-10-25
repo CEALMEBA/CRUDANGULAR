@@ -3,7 +3,7 @@ import { MatDialog, MatDialogConfig, MatPaginator, MatSnackBar, MatTableDataSour
 import { Administrador } from 'src/app/Models/Administrador';
 import { ConfirmDialogComponent } from '../confirm-dialog/confirm-dialog.component';
 import {AdministradorService} from 'src/app/Services/administrador.service';
-import { Credential } from 'src/app/models/Credential';
+import { Credential } from 'src/app/Models/Credential';
 
 @Component({
   selector: 'app-admin',

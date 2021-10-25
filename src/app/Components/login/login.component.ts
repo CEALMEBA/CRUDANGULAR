@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material';
 import { Router } from '@angular/router';
-import { Credential } from 'src/app/models/Credential';
+import { Credential } from 'src/app/Models/Credential';
 import { AuthService } from 'src/app/Services/auth.service';
-import { CredentialService } from 'src/app/services/credential.service';
+import { CredentialService } from 'src/app/Services/Credential.service';
 
 @Component({
   selector: 'app-login',

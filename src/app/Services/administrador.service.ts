@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Administrador } from '../models/Administrador';
+import { Administrador } from '../Models/Administrador';
 import { Global } from './global';
 
 @Injectable({
