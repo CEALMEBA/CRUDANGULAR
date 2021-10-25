@@ -2,6 +2,8 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MatSnackBar, MAT_DIALOG_DATA } from '@angular/material';
 import { Administrador } from 'src/app/Models/Administrador';
 import {AdministradorService  } from 'src/app/Services/administrador.service';
+
+
 @Component({
   selector: 'app-confirm-dialog',
   templateUrl: './confirm-dialog.component.html',
@@ -32,8 +34,8 @@ export class ConfirmDialogComponent implements OnInit {
   ngOnInit() {
     if(this.catalog == 1){
       this.getOneAdministrador();
-    
-    
+
+
     }
   }
   getOneAdministrador(){
